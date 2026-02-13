@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Garantir que o scroll funcione corretamente */
+html, body {
+  height: 100%;
+  overflow: auto;
+}
+
+#__nuxt {
+  height: 100%;
+  overflow: auto;
+}
